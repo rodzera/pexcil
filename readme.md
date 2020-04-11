@@ -1,8 +1,8 @@
-Pexcil
+Pexcil - Layout inspiration
 ==========================
 
 ```
-Layout inspiration
+ Original layout in img folder
 ```
 
 * HTML5
