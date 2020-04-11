@@ -1,10 +1,9 @@
-Pexcil - Layout inspiration
-==========================
+# pexcil
 
-```
- Original layout in img folder
-```
+inspirational responsive website layout built with:
 
 * HTML5
 * CSS3
 * Javascript
+
+original layout in img folder
