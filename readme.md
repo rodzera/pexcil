@@ -1,9 +1,9 @@
 # pexcil
 
-inspirational responsive website layout built with:
+inspirational* and responsive website layout built with:
 
 * HTML5
 * CSS3
 * Javascript
 
-original layout in img folder
+*original layout inside img folder
