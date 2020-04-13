@@ -6,4 +6,7 @@ inspirational and responsive website layout built with:
 * CSS3
 * Javascript
 
+```
+original layout inside img folder
+```
 ![pexcil-layout](https://imagizer.imageshack.com/img921/3158/TyflpH.png)
