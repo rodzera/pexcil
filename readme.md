@@ -1,12 +1,13 @@
-# pexcil
+# Pexcil
 
-inspirational and responsive website layout built with:
+Inspirational and responsive website layout built with:
 
 * HTML5
 * CSS3
 * Javascript
 
-```
-original layout inside img folder
-```
-![pexcil-layout](https://imagizer.imageshack.com/img921/3158/TyflpH.png)
+## Link to Page
+
+https://rodsup.github.io/pexcil/
+
+Original layout inside img folder
