@@ -5,6 +5,7 @@ Inspirational and responsive website layout built with:
 * HTML5
 * CSS3
 * Javascript
+* Sass
 
 ## Link to Page
 
