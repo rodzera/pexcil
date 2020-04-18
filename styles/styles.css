@@ -42,6 +42,7 @@ body {
 }
 @media all and (max-width: 768px) {
   .header {
+    position: relative;
     flex-direction: column;
     background-color: #fe9900;
   }

@@ -50,6 +50,7 @@ body {
     background-color: #111;
 
     @media all and (max-width: 768px) {
+        position: relative;
         flex-direction: column;
         background-color: #fe9900;
     }
