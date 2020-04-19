@@ -82,7 +82,9 @@ body {
 }
 @media all and (max-width: 768px) {
   .header {
-    position: relative;
+    position: sticky;
+    z-index: 1;
+    top: 0;
     flex-direction: column;
     background-color: #fe9900;
   }
@@ -95,7 +97,7 @@ body {
 @media all and (max-width: 768px) {
   .header .brand {
     margin: auto;
-    padding: 20px 24px;
+    padding: 20px 0px;
   }
 }
 .header .brand .fas {
@@ -114,6 +116,11 @@ body {
 @media all and (max-width: 768px) {
   .header .brand p {
     font-size: 32px;
+  }
+}
+@media all and (max-width: 340px) {
+  .header .brand p {
+    font-size: 28px;
   }
 }
 .header .brand .logohover {
@@ -142,8 +149,7 @@ body {
 }
 @media all and (max-width: 340px) {
   .header .nav .menu li {
-    display: inline-block;
-    padding: 25px 10px;
+    padding: 25.5px 8px;
   }
 }
 .header .nav .menu a {
@@ -164,7 +170,12 @@ body {
 }
 .header .nav .social-media li {
   display: inline-block;
-  padding: 26px 25px;
+  padding: 26px 26px;
+}
+@media all and (max-width: 340px) {
+  .header .nav .social-media li {
+    padding: 24px 24px;
+  }
 }
 .header .nav .social-media i {
   color: #eee;
@@ -190,7 +201,6 @@ body {
 }
 @media all and (max-width: 768px) {
   .header .nav.responsive .menu li:last-child {
-    padding: 26.5px 10px;
     margin-right: 0px;
   }
 }
@@ -210,7 +220,12 @@ body {
     right: 0;
     display: block;
     background-color: #111;
-    padding: 27px 27px;
+    padding: 27px;
+  }
+}
+@media all and (max-width: 340px) {
+  .header .responsive-menu a .fas {
+    padding: 25px;
   }
 }
 .header .responsive-menu a .fas:hover {
@@ -351,6 +366,11 @@ body {
   font-size: 14px;
   line-height: 2;
   list-style: disc;
+}
+@media all and (max-width: 768px) {
+  .footer .footer-content ul li {
+    list-style: none;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

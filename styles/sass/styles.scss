@@ -88,7 +88,9 @@ body {
     background-color: #111;
 
     @media all and (max-width: 768px) {
-        position: relative;
+        position: sticky;
+        z-index: 1;
+        top: 0;    
         flex-direction: column;
         background-color: #fe9900;
     }
@@ -100,8 +102,8 @@ body {
 
         @media all and (max-width: 768px) {
             margin: auto;
-            padding: 20px 24px;
-        }    
+            padding: 20px 0px;
+        }
     
         .fas {
             font-size: 34px;
@@ -119,7 +121,11 @@ body {
 
             @media all and (max-width: 768px) {
                 font-size: 32px;
-            }        
+            }
+
+            @media all and (max-width: 340px) {
+                font-size: 28px;
+            }
         }
         
         .logo {
@@ -151,11 +157,10 @@ body {
                 display: inline-block;
                 padding: 27.5px 16px;
 
-                @media all and (max-width: 340px) {
-                    display: inline-block;
-                    padding: 25px 10px;
-                }                    
-            }
+                    @media all and (max-width: 340px) {
+                        padding: 25.5px 8px;
+                    }
+                }
             
             a {
                 text-align: center;
@@ -178,7 +183,12 @@ body {
         
             li {
                 display: inline-block;
-                padding: 26px 25px;
+                padding: 26px 26px;
+
+                @media all and (max-width: 340px) {
+                    padding: 24px 24px;
+                }
+
             }
             
             i {
@@ -208,7 +218,6 @@ body {
             li{
                 &:last-child {
                     @media all and (max-width: 768px) {
-                        padding: 26.5px 10px;
                         margin-right: 0px;
                     }
                 }
@@ -232,7 +241,11 @@ body {
                 right: 0;
                 display: block;
                 background-color: #111;
-                padding: 27px 27px;
+                padding: 27px;
+            }
+            
+            @media all and (max-width: 340px) {
+                padding: 25px;
             }        
         
             &:hover {
@@ -388,6 +401,11 @@ body {
             font-size: 14px;
             line-height: 2;
             list-style: disc;
+
+            @media all and (max-width: 768px){
+                list-style: none;
+            }        
+
         }    
     }    
 }
