@@ -24,14 +24,14 @@ function server() {
         },
         notify: false
     });
-    gulp.watch('./src/scripts/scripts/*.js',  scripts);
+    gulp.watch(['./src/scripts/**/*.js', '!./src/scripts/scripts.js'],  scripts);
     gulp.watch('./src/styles/scss/**/*.scss', styles);
     gulp.watch('./src/views/**/*.html', html);
 };
 
 //compiling Javascripts
 function scripts() { 
-    return gulp.src('src/scripts/scripts/**/*.js')
+    return gulp.src(['./src/scripts/**/*.js', '!./src/scripts/scripts.js'])
     .pipe(plumber())
     .on('error', gutil.log)
     .pipe(concat('scripts.js'))
@@ -41,7 +41,7 @@ function scripts() {
 
 //compiling Javascripts for deployment
 function scriptsDeploy() {
-    return gulp.src('src/scripts/scripts/**/*.js')
+    return gulp.src(['./src/scripts/**/*.js', '!./src/scripts/scripts.js'])
     .pipe(plumber())
     .pipe(concat('scripts.js'))
     .pipe(uglify())
