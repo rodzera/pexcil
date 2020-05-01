@@ -10,5 +10,5 @@ Inspirational and responsive website layout built with:
 
 ## Link to Page
 
-* Access the page [here](https://rodsup.github.io/pexcil/dist/).
-* Original layout inside images/.
+* Access the page [here](https://rodsup.github.io/pexcil/dist/)
+* Original layout inside images/
