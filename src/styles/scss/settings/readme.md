@@ -1,5 +1,5 @@
 add resets and custom sass configs here
+add @import in styles.scss
+example:
 
-import example in styles.scss:
-
-@import './settings/customfile';
+@import './settings/_customfile';
