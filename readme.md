@@ -4,9 +4,9 @@ Responsive landing page built with:
 
 * HTML5
 * CSS3
-* Javascript
+* JavaScript
 * Sass
-* Gulp 4
+* Gulp.js
 
 ## Link
 
