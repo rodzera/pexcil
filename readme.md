@@ -8,7 +8,7 @@ Responsive landing page built with:
 * Sass
 * Gulp 4
 
-## Link to Page
+## Link
 
 * Access the page [here](https://rodsup.github.io/pexcil/dist/).
 * Original layout inside img folder.
