@@ -146,5 +146,5 @@ exports.htmlDeploy = htmlDeploy;
 exports.clean = clean;
 exports.scaffold = scaffold;
 const preDeploy = gulp.series(clean, scaffold);
-const deploy = gulp.parallel(scriptsDeploy, stylesDeploy, htmlDeploy);
-exports.deploy = gulp.series(preDeploy, deploy);
+const build = gulp.parallel(scriptsDeploy, stylesDeploy, htmlDeploy);
+exports.build = gulp.series(preDeploy, build);
